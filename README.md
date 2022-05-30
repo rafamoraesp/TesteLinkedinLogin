@@ -1,12 +1,13 @@
-## Teste automatizado na tela de login, utilizando o site Linkedin  *(Curso 'Qalizando')*
+## Teste automatizado na tela de login (usando o site do Linkedin) 
 
 
-Utilizando:
+Será necessário ter instalado as seguintes ferramentas:
+- VSCode
 - Ruby
 - Cucumber
 - Capybara
 - Selenium
-- Editor VSCode
+- Chrome webdriver
 
 #### Para rodar o teste
 Troque o 'seu email' e 'sua senha' no arquivo ```credential.rb``` localizado na pasta ```Features``` -> ```support```
@@ -14,8 +15,8 @@ Troque o 'seu email' e 'sua senha' no arquivo ```credential.rb``` localizado na 
 #### Rode o teste no terminal com os comandos: 
 ``` gem install bundler ```
 ``` bundle install ```
-e 
-``` cucumber -p prod ```  Por conta do arquivo cucumber.yml para diferentes ambientes.  
+``` cucumber -p prod ```  
+Por conta do arquivo cucumber.yml para diferentes ambientes.  prod (ambiente de produção)
 
 
 
