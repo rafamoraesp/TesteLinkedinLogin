@@ -9,7 +9,7 @@ Utilizando:
 - Editor VSCode
 
 #### Para rodar o teste
-Troque o 'seu email' e 'sua senha' no arquivo ```credential.rb``` na pasta ```support```
+Troque o 'seu email' e 'sua senha' no arquivo ```credential.rb``` localizado na pasta ```Features``` -> ```support```
 
 #### Rode o teste no terminal com o comando
 ``` cucumber -p prod ```  Por conta do arquivo cucumber.yml para diferentes ambientes.  
